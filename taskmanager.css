@@ -1,0 +1,43 @@
+body {
+	margin: 100px;
+	background-color: white;
+	font-family: arial;
+    background-image: url(img/adminbg.jpg);
+    background-size: cover;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 4px;
+}
+
+th {
+	background-color: white;
+}
+
+td {
+	background-color: white;
+}
+
+a.taskButton:link, a.taskButton:visited, a.taskButton:active {
+	color: black;
+	font-size: 1.2em;
+	text-decoration: none;
+	
+	padding: 5px;
+	border: 1px solid black;
+}
+
+a.taskButton:hover {
+	background-color: white;
+}
+
+form {
+	
+	
+	padding: 5px;
+}
